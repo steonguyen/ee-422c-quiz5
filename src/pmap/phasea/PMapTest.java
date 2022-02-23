@@ -1,5 +1,5 @@
 /* 
- * Phase A <studentA EID><studentB EID>
+ * Phase A <Steven Nguyen sn24356><studentB EID>
  * Phase B <studentB EID><studentA EID>
  */
 
@@ -27,6 +27,17 @@ public class PMapTest {
         m.put(1, 2);
         assertEquals(2, m.get(1).intValue());
         assertEquals(null, m.get(2));
+    }
+    
+    @Test
+    public void testRemove() {
+    	PMap m = new PMap();
+    	m.put(1, 11);
+    	m.put(2, 22);
+    	m.put(3, 33);
+    	assertEquals(3, m.size().intValue());
+    	m.remove(2);
+    	assertEquals(2, m.size().intValue());
     }
 
     // TODO add more test cases to test all implemented methods

@@ -1,5 +1,5 @@
 /* 
- * Phase A <Steven Nguyen sn24356><studentB EID>
+ * Phase A <Steven Nguyen sn24356> rcr2662
  * Phase B <studentB EID><studentA EID>
  */
 

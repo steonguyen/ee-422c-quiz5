@@ -1,6 +1,5 @@
 /* 
- * Phase A <Steven Nguyen sn24356><studentB EID>
- * Phase B <studentB EID><studentA EID>
+ * Phase A <Steven Nguyen sn24356><Roberto Reyes rcr2662>
  */
 
 package pmap.phasea;
